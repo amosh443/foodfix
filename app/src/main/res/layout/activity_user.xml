@@ -10,10 +10,11 @@
         android:scaleType="centerCrop"
         android:src="@drawable/user"/>
 
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
+        android:gravity="center"
         tools:context=".UserChoice">
 
         <TextView
@@ -21,7 +22,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:paddingVertical="52dp"
+            android:paddingVertical="60dp"
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
             android:text="@string/Restorator"
@@ -33,13 +34,15 @@
             android:id="@+id/user"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:gravity="bottom"
+            android:layout_alignParentBottom="true"
             android:text="@string/User"
             android:textColor="@color/colorUser"
             android:textSize="38sp"
+            android:paddingLeft="70sp"
+            android:paddingRight="10sp"
+            android:paddingBottom="60sp"
             android:textStyle="italic" />
 
 
-    </LinearLayout>
+    </RelativeLayout>
 </FrameLayout>
