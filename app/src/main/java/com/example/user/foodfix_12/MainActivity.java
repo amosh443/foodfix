@@ -12,6 +12,7 @@ public class MainActivity extends AppCompatActivity {
     private TextView textView;
     Handler handler;
     int limit = 5;
+    int limitt = 4;
     int count = 0;
 
     @Override
